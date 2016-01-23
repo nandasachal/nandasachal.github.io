@@ -1,0 +1,240 @@
+div.sidebar {
+	width: 120px;
+	height: 100%;
+	background-color: #333366; /* old color - 333366*/
+	z-index: 100;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+div.sidebar_container {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+div.item_container {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menu_item {
+	font-size: 15px;
+	color: white;
+}
+
+.border {
+	border: 1px dashed black;
+}
+
+.menu_image {
+	width: 80px;
+	height: 80px;
+	vertical-align: bottom;
+	margin-right: 30px;
+}
+
+.circular {
+	border-radius: 100%;
+}
+
+.item_container:hover {
+	background-color: #000033;
+}
+
+.clicked {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ffffff;
+}
+
+.shadow {
+	box-shadow: 0px 5px 5px #888888;
+}
+
+.content {
+	position: absolute;
+	z-index: 0;
+	margin-bottom: 30px;
+	left: 120px;
+	top: 0px;
+	width: calc(100% - 120px);
+}
+
+h1 {
+	text-align: center;
+	display: block;
+	/*border: 10px dashed blue;*/
+	font-size: 60px;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: lighter;
+	color: #505050;
+	margin-bottom: 0px;
+}
+
+h2.email {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Cantarella', sans-serif;
+	font-weight: lighter;
+	color: #888888;
+
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Cantarella', sans-serif;
+	color: #888888;
+	width: 60%;
+	margin: auto;
+	font-size: 30px;
+}
+a {
+	text-decoration:none;
+	color: #888888;
+}
+a:hover {
+	text-decoration:none;
+	color: #505050;
+}
+
+div.social_media {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+	width: 190px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+img.social_media_logo {
+	display: inline-block;
+	border-radius: 10%;
+	opacity: 0.5;
+	height: 40px;
+	width: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+img.social_media_logo:hover {
+	opacity: 1.0;
+}
+
+div.container {
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding:0px;
+}
+
+div.square_photo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 250px;
+	height: 250px;
+}
+
+div.thin_rect_photo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 390px;
+	height: 80px;
+}
+
+div.thick_rect_photo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 390px;
+	height: 150px;
+}
+
+div.short_rect_photo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 150px;
+	height: 80px;
+}
+
+p.description {
+	text-align: justify;
+	width: 60%;
+	color: #888888;
+	font-family: 'Cantarella', sans-serif;
+	font-size: 20px;
+	margin: auto;
+	line-height: 220%;
+}
+
+img.box {
+	height: 80px;
+	width: 150px;
+	margin:0px;
+}
+
+img.bc {
+	height: 80px;
+	width: 390px;
+}
+
+img.morganstanley {
+	height: 80px;
+	width: 390px;
+}
+
+img.qatalyst {
+	height: 150px;
+	width: 390px;
+}
+
+img.mypurmist {
+	height: 150px;
+	width: 390px;
+}
+
+img.octillion {
+	height: 150px;
+	width: 390px;
+}
+
+img.golf {
+	height: 250px;
+	width: 250px;
+}
+
+img.rcsa {
+	height: 250px;
+	width: 250px;
+}
+
+img.deltachi {
+	height: 250px;
+	width: 250px;
+}
+
+img.homeofhope {
+	height: 250px;
+	width: 250px;
+}
