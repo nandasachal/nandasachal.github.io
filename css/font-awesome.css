@@ -2313,6 +2313,7 @@ main {
     /*REGULAR SCREEN*/
     /*REGULAR SCREEN*/
     /*REGULAR SCREEN*/
+    /*SMALL SCREEN*/
     /*IPHONE*/ }
     @media screen and (max-width: 1100px) {
       .description p {
@@ -2332,6 +2333,9 @@ main {
     @media screen and (max-width: 667px) {
       .description p {
         font-size: 15px; } }
+    @media screen and (max-width: 400px) {
+      .description p {
+        font-size: 13px; } }
 
 header {
   height: 500px;

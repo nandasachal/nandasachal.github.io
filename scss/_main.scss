@@ -125,9 +125,13 @@ main {
         @media screen and (max-width: 713px) {
             font-size: 11px;
         }
-        /*IPHONE*/
+        /*SMALL SCREEN*/
         @media screen and (max-width: 667px) {
             font-size: 15px;
+        }
+        /*IPHONE*/
+        @media screen and (max-width: 400px) {
+            font-size: 13px;
         }
     }   
 }
