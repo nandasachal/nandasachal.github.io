@@ -2394,7 +2394,7 @@ header {
         font-size: 18px; } }
     @media screen and (max-width: 400px) {
       header div.main_tabs div {
-        font-size: 16px; } }
+        font-size: 10px; } }
   header div.main_tabs .clicked {
     background-color: #FFFFFF;
     transition: background-color 0.4s;
