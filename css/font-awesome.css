@@ -2375,7 +2375,15 @@ header {
     margin-bottom: 72px;
     margin-top: 0px; }
     header div.text #name {
-      font-size: 50px; }
+      font-size: 50px;
+      /*SMALL SCREEN*/
+      /*IPHONE*/ }
+      @media screen and (max-width: 667px) {
+        header div.text #name {
+          font-size: 45px; } }
+      @media screen and (max-width: 400px) {
+        header div.text #name {
+          font-size: 45px; } }
     header div.text #education {
       font-size: 15px;
       color: #D0D0D0; }
@@ -2426,13 +2434,14 @@ footer {
   /*IPHONE*/ }
   @media screen and (max-width: 400px) {
     #workday_logo {
-      background-color: yellow; } }
+      margin-top: 25px;
+      margin-left: 30px; } }
 
 #salesforce_logo {
   width: 75%;
   height: auto;
   margin-top: 45px;
-  margin-left: 35px; }
+  margin-left: 20px; }
 
 #dropbox_logo {
   width: 90%;
