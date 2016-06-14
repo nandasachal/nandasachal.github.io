@@ -2245,10 +2245,6 @@ main {
   height: 2px;
   width: 100%;
   background-color: #003459; }
-  @media screen and (min-width: 1000px) {
-    .block_separator {
-      width: 50%;
-      background-color: yellow; } }
 
 .info_block, .career_block, .involvement_block, .project_block {
   height: 400px;
@@ -2269,8 +2265,7 @@ main {
     background-color: #D3D3D3; }
     @media screen and (min-width: 1240px) {
       .career_block .inner_block {
-        width: 870px;
-        background-color: yellow; } }
+        width: 870px; } }
 
 .content_holder_left, .content_holder_right {
   height: 320px;
