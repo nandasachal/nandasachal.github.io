@@ -2383,7 +2383,7 @@ header {
           font-size: 45px; } }
       @media screen and (max-width: 400px) {
         header div.text #name {
-          font-size: 45px; } }
+          font-size: 40px; } }
     header div.text #education {
       font-size: 15px;
       color: #D0D0D0; }
