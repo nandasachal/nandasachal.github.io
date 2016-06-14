@@ -2269,7 +2269,7 @@ main {
     background-color: #D3D3D3;
     /*BIG SCREEN*/
     /*SMALL SCREEN*/ }
-    @media screen and (min-width: 1240px) {
+    @media screen and (min-width: 950px) {
       .career_block .inner_block {
         width: 870px; } }
     @media screen and (max-width: 667px) {
