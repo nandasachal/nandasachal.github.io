@@ -2412,7 +2412,7 @@ footer {
   margin-top: 25px;
   margin-left: 50px;
   /*IPHONE*/ }
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 400px) {
     #workday_logo {
       background-color: yellow; } }
 
