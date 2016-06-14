@@ -1,5 +1,4 @@
 body {
-    //background-color: $black;
     color: $black;
     margin: 0px;
     padding: 0px;  
@@ -14,7 +13,6 @@ p {
 main {
     width: 100%;
     background-color: $mid_blue;
-    //height: $block_height*7;
 }
 
 .block_separator {
@@ -24,34 +22,18 @@ main {
 }
 
 .info_block {
-    height: 400px;
+    height: $block_height;
     width: 100%;
-    //padding-top: 10px;
-    //padding-bottom: 10px;
-    //put the different subclasses for each component under here, instead of extending
-    //hello
-    //hello again
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        height: 2*$block_height;
+    }
 }
 
 .career_block {
     @extend .info_block;
     background-color: white;
 
-    // #first_block {
-    //     background-color: $gray;
-    // }
-
-    // #second_block {
-    //     background-color: $gray;
-    // }
-
-    // #third_block {
-    //     background-color: $gray;
-    // }
-
-    // #fourth_block {
-    //     background-color: $gray;
-    // }
     .inner_block {
         height: 0.8*$block_height;
         width: 0.7*$block_width;
@@ -60,9 +42,14 @@ main {
         @include center(0px);
         top: ($block_height - 0.8*$block_height)/2;
         background-color: $gray;
+        
+        /*BIG SCREEN*/
         @media screen and (min-width: 1240px) {
             width: 870px;
-            // background-color: yellow;
+        }
+        /*IPHONE*/
+        @media screen and (max-width: 667px) {
+            height: 2*0.8*$block_height;
         }
     }
 
@@ -78,16 +65,26 @@ main {
 
 .content_holder_left {
     height: 0.8*$block_height;
-    //background-color: red;
-    width: 50%;
-    display: inline-block;
+    width: 100%;
+    display: block;
+    /*REGULAR SCREEN*/
+    @media screen and (min-width: 667px) {
+        background-color: red;
+        display: inline-block;
+        width: 50%;
+    }
+
 
 }
 
 .content_holder_right {
     @extend .content_holder_left;
-    float: right;
-    //background-color: green;
+    /*REGULAR SCREEN*/
+    @media screen and (min-width: 667px) {
+        float: right;
+        background-color: yellow;
+        width: 50%;
+    }
 }
 
 .description {
@@ -108,5 +105,29 @@ main {
     p {
         margin-left: 30px;
         margin-right: 30px;
+        /*REGULAR SCREEN*/
+        @media screen and (max-width: 1100px) {
+            font-size: 15px;
+        }
+        /*REGULAR SCREEN*/
+        @media screen and (max-width: 1025px) {
+            font-size: 14px;
+        }
+        /*REGULAR SCREEN*/
+        @media screen and (max-width: 880px) {
+            font-size: 13px;
+        }
+        /*REGULAR SCREEN*/
+        @media screen and (max-width: 775px) {
+            font-size: 12px;
+        }
+        /*REGULAR SCREEN*/
+        @media screen and (max-width: 713px) {
+            font-size: 11px;
+        }
+        /*IPHONE*/
+        @media screen and (max-width: 667px) {
+            font-size: 15px;
+        }
     }   
 }

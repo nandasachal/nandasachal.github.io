@@ -2248,7 +2248,11 @@ main {
 
 .info_block, .career_block, .involvement_block, .project_block {
   height: 400px;
-  width: 100%; }
+  width: 100%;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    .info_block, .career_block, .involvement_block, .project_block {
+      height: 800px; } }
 
 .career_block {
   background-color: white; }
@@ -2262,18 +2266,34 @@ main {
     display: block;
     margin-top: 0px;
     top: 40px;
-    background-color: #D3D3D3; }
+    background-color: #D3D3D3;
+    /*BIG SCREEN*/
+    /*IPHONE*/ }
     @media screen and (min-width: 1240px) {
       .career_block .inner_block {
         width: 870px; } }
+    @media screen and (max-width: 667px) {
+      .career_block .inner_block {
+        height: 640px; } }
 
 .content_holder_left, .content_holder_right {
   height: 320px;
-  width: 50%;
-  display: inline-block; }
+  width: 100%;
+  display: block;
+  /*REGULAR SCREEN*/ }
+  @media screen and (min-width: 667px) {
+    .content_holder_left, .content_holder_right {
+      background-color: red;
+      display: inline-block;
+      width: 50%; } }
 
 .content_holder_right {
-  float: right; }
+  /*REGULAR SCREEN*/ }
+  @media screen and (min-width: 667px) {
+    .content_holder_right {
+      float: right;
+      background-color: yellow;
+      width: 50%; } }
 
 .description {
   font-family: Roboto;
@@ -2287,7 +2307,31 @@ main {
     margin-bottom: 10px; }
   .description p {
     margin-left: 30px;
-    margin-right: 30px; }
+    margin-right: 30px;
+    /*REGULAR SCREEN*/
+    /*REGULAR SCREEN*/
+    /*REGULAR SCREEN*/
+    /*REGULAR SCREEN*/
+    /*REGULAR SCREEN*/
+    /*IPHONE*/ }
+    @media screen and (max-width: 1100px) {
+      .description p {
+        font-size: 15px; } }
+    @media screen and (max-width: 1025px) {
+      .description p {
+        font-size: 14px; } }
+    @media screen and (max-width: 880px) {
+      .description p {
+        font-size: 13px; } }
+    @media screen and (max-width: 775px) {
+      .description p {
+        font-size: 12px; } }
+    @media screen and (max-width: 713px) {
+      .description p {
+        font-size: 11px; } }
+    @media screen and (max-width: 667px) {
+      .description p {
+        font-size: 15px; } }
 
 header {
   height: 500px;
