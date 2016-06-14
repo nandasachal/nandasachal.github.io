@@ -24,9 +24,9 @@ main {
 .info_block {
     height: $block_height;
     width: 100%;
-    /*IPHONE*/
+    /*SMALL SCREEN*/
     @media screen and (max-width: 667px) {
-        height: 2*$block_height;
+        height: 1.6*$block_height;
     }
 }
 
@@ -47,10 +47,10 @@ main {
         @media screen and (min-width: 1240px) {
             width: 870px;
         }
-        /*IPHONE*/
+        /*SMALL SCREEN*/
         @media screen and (max-width: 667px) {
             height: 2*0.7*$block_height;
-            top: (2*$block_height - 2*0.7*$block_height)/2;
+            top: (1.6*$block_height - 2*0.7*$block_height)/2;
         }
     }
 

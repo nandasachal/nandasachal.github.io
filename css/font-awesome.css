@@ -2249,10 +2249,10 @@ main {
 .info_block, .career_block, .involvement_block, .project_block {
   height: 400px;
   width: 100%;
-  /*IPHONE*/ }
+  /*SMALL SCREEN*/ }
   @media screen and (max-width: 667px) {
     .info_block, .career_block, .involvement_block, .project_block {
-      height: 800px; } }
+      height: 640px; } }
 
 .career_block {
   background-color: white; }
@@ -2268,14 +2268,14 @@ main {
     top: 40px;
     background-color: #D3D3D3;
     /*BIG SCREEN*/
-    /*IPHONE*/ }
+    /*SMALL SCREEN*/ }
     @media screen and (min-width: 1240px) {
       .career_block .inner_block {
         width: 870px; } }
     @media screen and (max-width: 667px) {
       .career_block .inner_block {
         height: 560px;
-        top: 120px; } }
+        top: 40px; } }
 
 .content_holder_left, .content_holder_right {
   width: 100%;
@@ -2432,81 +2432,141 @@ footer {
   margin-top: 25px;
   margin-left: 50px;
   /*IPHONE*/ }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 667px) {
     #workday_logo {
-      margin-top: 25px;
-      margin-left: 30px; } }
+      margin-top: 10%;
+      margin-left: 10%; } }
 
 #salesforce_logo {
   width: 75%;
   height: auto;
   margin-top: 45px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #salesforce_logo {
+      margin-top: 10%;
+      margin-left: 12%; } }
 
 #dropbox_logo {
   width: 90%;
   height: auto;
   margin-top: 100px;
-  margin-left: 30px; }
+  margin-left: 30px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #dropbox_logo {
+      margin-top: 13%;
+      margin-left: 5%; } }
 
 #box_logo {
   width: 70%;
   height: auto;
   margin-top: 60px;
-  margin-left: 35px; }
+  margin-left: 35px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #box_logo {
+      margin-top: 13%;
+      margin-left: 15%; } }
 
 #zynga_logo {
   width: 90%;
   height: auto;
   margin-top: 110px;
-  margin-left: 35px; }
+  margin-left: 35px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #zynga_logo {
+      margin-top: 15%;
+      margin-left: 5%; } }
 
 #eventbrite_logo {
   width: 80%;
   height: auto;
   margin-top: 105px;
-  margin-left: 25px; }
+  margin-left: 25px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #eventbrite_logo {
+      margin-top: 13%;
+      margin-left: 11%; } }
 
 #ms_logo {
   width: 100%;
   height: auto;
-  margin-top: 10px;
-  margin-left: 15px; }
+  margin-top: 45px;
+  margin-left: 15px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #ms_logo {
+      margin-top: 17%;
+      margin-left: 0%; } }
 
 #bc_logo {
   width: 60%;
   height: auto;
   margin-top: 30px;
-  margin-left: 100px; }
+  margin-left: 100px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #bc_logo {
+      margin-top: 13%;
+      margin-left: 20%; } }
 
 #club_golf_logo {
   width: 65%;
   height: auto;
   margin-top: 15px;
-  margin-left: 50px; }
+  margin-left: 50px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #club_golf_logo {
+      margin-top: 15%;
+      margin-left: 16%; } }
 
 #dx_logo {
   width: 80%;
   height: auto;
   margin-top: 30px;
-  margin-left: 60px; }
+  margin-left: 60px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #dx_logo {
+      margin-top: 10%;
+      margin-left: 10%; } }
 
 #wordlike_logo {
   width: 60%;
   height: auto;
   margin-top: 35px;
-  margin-left: 100px; }
+  margin-left: 100px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #wordlike_logo {
+      margin-top: 13%;
+      margin-left: 20%; } }
 
 #somewear_logo {
   width: 90%;
   height: auto;
   margin-top: 85px;
-  margin-left: -10px; }
+  margin-left: -10px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #somewear_logo {
+      margin-top: 13%;
+      margin-left: 5%; } }
 
 #boxhub_logo {
   width: 90%;
   height: auto;
   margin-top: 95px;
-  margin-left: 35px; }
+  margin-left: 35px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 667px) {
+    #boxhub_logo {
+      margin-top: 13%;
+      margin-left: 5%; } }
 
 /*# sourceMappingURL=font-awesome.css.map */

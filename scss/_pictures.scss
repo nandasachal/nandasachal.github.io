@@ -5,9 +5,9 @@
     margin-top: 25px;
     margin-left: 50px;
     /*IPHONE*/
-    @media screen and (max-width: 400px) {
-        margin-top: 25px;
-        margin-left: 30px;
+    @media screen and (max-width: 667px) {
+        margin-top: 10%;
+        margin-left: 10%;
     }
 }
 
@@ -16,6 +16,11 @@
     height: auto;
     margin-top: 45px;
     margin-left:20px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 10%;
+        margin-left: 12%;
+    }
 }
 
 #dropbox_logo {
@@ -23,6 +28,11 @@
     height: auto;
     margin-top: 100px;
     margin-left: 30px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 13%;
+        margin-left: 5%;
+    }
 }
 
 #box_logo {
@@ -30,6 +40,11 @@
     height: auto;
     margin-top: 60px;
     margin-left: 35px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 13%;
+        margin-left: 15%;
+    }
 }
 
 #zynga_logo {
@@ -37,6 +52,11 @@
     height: auto;
     margin-top: 110px;
     margin-left: 35px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 15%;
+        margin-left: 5%;
+    }
 }
 
 #eventbrite_logo {
@@ -44,13 +64,23 @@
     height: auto;
     margin-top: 105px;
     margin-left: 25px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 13%;
+        margin-left: 11%;
+    }
 }
 
 #ms_logo {
     width: 100%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 45px;
     margin-left: 15px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 17%;
+        margin-left: 0%;
+    }
 }
 
 //INVOLVEMENTS
@@ -59,6 +89,11 @@
     height: auto;
     margin-top: 30px;
     margin-left: 100px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 13%;
+        margin-left: 20%;
+    }
 }
 
 #club_golf_logo {
@@ -66,7 +101,11 @@
     height: auto;
     margin-top: 15px;
     margin-left: 50px;
-    //border: 2px solid $darker-blue;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 15%;
+        margin-left: 16%;
+    }
 }
 
 #dx_logo {
@@ -74,6 +113,11 @@
     height: auto;
     margin-top: 30px;
     margin-left: 60px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 10%;
+        margin-left: 10%;
+    }
 }
 
 //PROJECTS
@@ -82,6 +126,11 @@
     height: auto;
     margin-top: 35px;
     margin-left: 100px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 13%;
+        margin-left: 20%;
+    }
 }
 
 #somewear_logo {
@@ -89,6 +138,11 @@
     height: auto;
     margin-top: 85px;
     margin-left: -10px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 13%;
+        margin-left: 5%;
+    }
 }
 
 #boxhub_logo {
@@ -96,4 +150,9 @@
     height: auto;
     margin-top: 95px;
     margin-left: 35px;
+    /*IPHONE*/
+    @media screen and (max-width: 667px) {
+        margin-top: 13%;
+        margin-left: 5%;
+    }
 }
