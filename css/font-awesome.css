@@ -2283,7 +2283,6 @@ main {
   /*REGULAR SCREEN*/ }
   @media screen and (min-width: 667px) {
     .content_holder_left, .content_holder_right {
-      background-color: red;
       display: inline-block;
       width: 50%; } }
 
@@ -2292,7 +2291,6 @@ main {
   @media screen and (min-width: 667px) {
     .content_holder_right {
       float: right;
-      background-color: yellow;
       width: 50%; } }
 
 .description {

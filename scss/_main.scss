@@ -69,7 +69,6 @@ main {
     display: block;
     /*REGULAR SCREEN*/
     @media screen and (min-width: 667px) {
-        background-color: red;
         display: inline-block;
         width: 50%;
     }
@@ -82,7 +81,6 @@ main {
     /*REGULAR SCREEN*/
     @media screen and (min-width: 667px) {
         float: right;
-        background-color: yellow;
         width: 50%;
     }
 }
