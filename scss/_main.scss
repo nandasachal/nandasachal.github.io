@@ -21,6 +21,10 @@ main {
     height: 2px;
     width: 100%;
     background-color: $darker_blue;
+    @media screen and (min-width: 1000px) {
+        width: 50%;
+        background-color: yellow;
+    }
 }
 
 .info_block {
@@ -60,6 +64,10 @@ main {
         @include center(0px);
         top: ($block_height - 0.8*$block_height)/2;
         background-color: $gray;
+        @media screen and (min-width: 1240px) {
+            width: 870px;
+            background-color: yellow;
+        }
     }
 
 }
