@@ -49,7 +49,8 @@ main {
         }
         /*IPHONE*/
         @media screen and (max-width: 667px) {
-            height: 2*0.8*$block_height;
+            height: 2*0.7*$block_height;
+            top: (2*$block_height - 2*0.7*$block_height)/2;
         }
     }
 
@@ -64,11 +65,11 @@ main {
 }
 
 .content_holder_left {
-    height: 0.8*$block_height;
     width: 100%;
     display: block;
     /*REGULAR SCREEN*/
     @media screen and (min-width: 667px) {
+        height: 0.8*$block_height;
         display: inline-block;
         width: 50%;
     }
@@ -80,6 +81,7 @@ main {
     @extend .content_holder_left;
     /*REGULAR SCREEN*/
     @media screen and (min-width: 667px) {
+        height: 0.8*$block_height;
         float: right;
         width: 50%;
     }

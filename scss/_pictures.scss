@@ -4,6 +4,11 @@
     height: auto;
     margin-top: 25px;
     margin-left: 50px;
+    /*IPHONE*/
+    @media screen and (max-width: 300px) {
+        // margin-bottom: -200px;
+        background-color: yellow;
+    }
 }
 
 #salesforce_logo {

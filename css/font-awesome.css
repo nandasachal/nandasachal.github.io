@@ -2274,15 +2274,16 @@ main {
         width: 870px; } }
     @media screen and (max-width: 667px) {
       .career_block .inner_block {
-        height: 640px; } }
+        height: 560px;
+        top: 120px; } }
 
 .content_holder_left, .content_holder_right {
-  height: 320px;
   width: 100%;
   display: block;
   /*REGULAR SCREEN*/ }
   @media screen and (min-width: 667px) {
     .content_holder_left, .content_holder_right {
+      height: 320px;
       display: inline-block;
       width: 50%; } }
 
@@ -2290,6 +2291,7 @@ main {
   /*REGULAR SCREEN*/ }
   @media screen and (min-width: 667px) {
     .content_holder_right {
+      height: 320px;
       float: right;
       width: 50%; } }
 
@@ -2408,7 +2410,11 @@ footer {
   width: 80%;
   height: auto;
   margin-top: 25px;
-  margin-left: 50px; }
+  margin-left: 50px;
+  /*IPHONE*/ }
+  @media screen and (max-width: 300px) {
+    #workday_logo {
+      background-color: yellow; } }
 
 #salesforce_logo {
   width: 75%;
