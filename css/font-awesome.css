@@ -2386,7 +2386,15 @@ header {
     height: 50px;
     line-height: 50px;
     font-size: 20px;
-    color: #00171F; }
+    color: #00171F;
+    /*SMALL SCREEN*/
+    /*IPHONE*/ }
+    @media screen and (max-width: 667px) {
+      header div.main_tabs div {
+        font-size: 18px; } }
+    @media screen and (max-width: 400px) {
+      header div.main_tabs div {
+        font-size: 16px; } }
   header div.main_tabs .clicked {
     background-color: #FFFFFF;
     transition: background-color 0.4s;

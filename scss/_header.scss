@@ -72,6 +72,14 @@ header {
             line-height: $navigation_bars_height;
             font-size: 20px;
             color: $black;
+            /*SMALL SCREEN*/
+            @media screen and (max-width: 667px) {
+                font-size: 18px;
+            }
+            /*IPHONE*/
+            @media screen and (max-width: 400px) {
+                font-size: 16px;
+            }
         }
 
         // #first_tab {
