@@ -42,7 +42,7 @@ main {
         @include center(0px);
         top: ($block_height - 0.8*$block_height)/2;
         background-color: $gray;
-        border-radius: 35px;
+        border-radius: 25px;
         
         /*BIG SCREEN*/
         @media screen and (min-width: 950px) {
