@@ -2267,6 +2267,7 @@ main {
     margin-top: 0px;
     top: 40px;
     background-color: #D3D3D3;
+    border-radius: 35px;
     /*BIG SCREEN*/
     /*SMALL SCREEN*/ }
     @media screen and (min-width: 950px) {
