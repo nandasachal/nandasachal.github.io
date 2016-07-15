@@ -12,12 +12,14 @@ p {
 
 main {
     width: 100%;
-    background-color: $mid_blue;
+    //background-color: $mid_blue;
 }
 
 .block_separator {
     height: 2px;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: $darker_blue;
 }
 
@@ -53,6 +55,10 @@ main {
             height: 2*0.7*$block_height;
             top: (1.6*$block_height - 2*0.7*$block_height)/2;
         }
+    }
+
+    .first_block {
+        //NOTHING RIGHT NOW
     }
 
 }

@@ -2238,12 +2238,13 @@ p {
   padding: 0px; }
 
 main {
-  width: 100%;
-  background-color: #007CA5; }
+  width: 100%; }
 
 .block_separator {
   height: 2px;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #003459; }
 
 .info_block, .career_block, .involvement_block, .project_block {
@@ -2339,14 +2340,14 @@ main {
         font-size: 11px; } }
 
 header {
-  height: 500px;
+  height: 600px;
   width: 100%;
   display: inline-block;
   font-family: Roboto;
   font-weight: 300; }
   header #mountain {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: url(../files/mount_diablo.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2358,7 +2359,8 @@ header {
     height: 50px; }
     header div.menu div.social_media {
       display: inline-block;
-      float: right; }
+      float: right;
+      cursor: pointer; }
   header img.profile_pic {
     height: 150px;
     width: 150px;
@@ -2368,12 +2370,12 @@ header {
     margin-left: auto;
     display: block;
     margin-top: 0px;
-    margin-top: 72px; }
+    margin-top: 82px; }
   header div.text {
     color: #FFFFFF;
     text-align: center;
     height: 100px;
-    margin-bottom: 72px;
+    margin-bottom: 162px;
     margin-top: 0px; }
     header div.text #name {
       font-size: 50px;
@@ -2387,7 +2389,22 @@ header {
           font-size: 40px; } }
     header div.text #education {
       font-size: 15px;
-      color: #D0D0D0; }
+      color: #FFFFFF; }
+    header div.text #golf_lessons {
+      font-size: 14px;
+      color: #003459;
+      width: 410px;
+      height: 30px;
+      padding-top: 14px;
+      background-color: #D0D0D0;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      margin-top: 0px;
+      border-radius: 25px; }
+      header div.text #golf_lessons a {
+        color: #003459;
+        cursor: pointer; }
   header div.main_tabs div {
     display: inline-block;
     text-align: center;

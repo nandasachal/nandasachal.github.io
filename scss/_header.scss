@@ -1,5 +1,5 @@
 header {
-    $header_height: 500px;
+    $header_height: 600px;
     $header_width: 100%;
     $profile_pic_border:3px;
     $profile_pic_dimension: 150px;
@@ -31,6 +31,7 @@ header {
             //background-color: green;
             display: inline-block;
             float: right;
+            cursor: pointer;
         }
     }
 
@@ -41,7 +42,7 @@ header {
         border: $profile_pic_border solid $white;
         @include center(0px);
         //background-color: red;
-        margin-top: $middle_vertical_margin;
+        margin-top: $middle_vertical_margin - 40px;;
 
     }
 
@@ -50,7 +51,7 @@ header {
         text-align: center;
         height: $name_div_height;
         //background-color: black;
-        margin-bottom: $middle_vertical_margin;
+        margin-bottom: $middle_vertical_margin + 40px;
         margin-top: 0px;
 
         #name {
@@ -66,7 +67,23 @@ header {
         }
         #education {
             font-size: 15px;
-            color: $lighter_gray;
+            color: $white;
+        }
+
+        #golf_lessons {
+            font-size: 14px;
+            color: $darker_blue;
+            width: 410px;
+            height: 30px;
+            padding-top: 14px;
+            background-color: $lighter_gray;
+            @include center(0px);
+            border-radius: 25px;
+            a {
+               color: $darker_blue; 
+               cursor: pointer;
+            }
+
         }
 
     }
