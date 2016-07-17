@@ -19,6 +19,10 @@ header {
         height: $header_height;
         background: url(../files/mount_diablo.jpg) no-repeat center center fixed;
         @include background-size();
+        /*IPHONE*/
+        @media screen and (max-width: 400px) {
+            background: url(../files/mount_diablo_small.jpeg) no-repeat center center fixed;
+        }
     }
     
     div.menu {
@@ -70,20 +74,33 @@ header {
             color: $white;
         }
 
-        #golf_lessons {
-            font-size: 14px;
-            color: $darker_blue;
-            width: 410px;
-            height: 30px;
-            padding-top: 14px;
-            background-color: $lighter_gray;
-            @include center(0px);
-            border-radius: 25px;
-            a {
-               color: $darker_blue; 
-               cursor: pointer;
+        a {
+            text-decoration: none;
+            #golf_lessons {
+                font-size: 14px;
+                color: $darker_blue;
+                width: 410px;
+                height: 30px;
+                padding-top: 14px;
+                background-color: $lighter_gray;
+                @include center(0px);
+                border-radius: 25px;
+                transition: background-color 0.4s, color 0.4s;
+                cursor: pointer;
+                /*IPHONE*/
+                @media screen and (max-width: 400px) {
+                    font-size: 11px;
+                    width: 315px;
+                    height: 20px;
+                    padding-top: 8px;
+                }
+
             }
 
+            #golf_lessons:hover {
+                background-color: $darker_blue;
+                color: $white;
+            }
         }
 
     }

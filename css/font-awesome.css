@@ -2352,7 +2352,11 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; }
+    background-size: cover;
+    /*IPHONE*/ }
+    @media screen and (max-width: 400px) {
+      header #mountain {
+        background: url(../files/mount_diablo_small.jpeg) no-repeat center center fixed; } }
   header div.menu {
     margin-left: 5px;
     margin-right: 5px;
@@ -2390,21 +2394,32 @@ header {
     header div.text #education {
       font-size: 15px;
       color: #FFFFFF; }
-    header div.text #golf_lessons {
-      font-size: 14px;
-      color: #003459;
-      width: 410px;
-      height: 30px;
-      padding-top: 14px;
-      background-color: #D0D0D0;
-      margin-right: auto;
-      margin-left: auto;
-      display: block;
-      margin-top: 0px;
-      border-radius: 25px; }
-      header div.text #golf_lessons a {
+    header div.text a {
+      text-decoration: none; }
+      header div.text a #golf_lessons {
+        font-size: 14px;
         color: #003459;
-        cursor: pointer; }
+        width: 410px;
+        height: 30px;
+        padding-top: 14px;
+        background-color: #D0D0D0;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-top: 0px;
+        border-radius: 25px;
+        transition: background-color 0.4s, color 0.4s;
+        cursor: pointer;
+        /*IPHONE*/ }
+        @media screen and (max-width: 400px) {
+          header div.text a #golf_lessons {
+            font-size: 11px;
+            width: 315px;
+            height: 20px;
+            padding-top: 8px; } }
+      header div.text a #golf_lessons:hover {
+        background-color: #003459;
+        color: #FFFFFF; }
   header div.main_tabs div {
     display: inline-block;
     text-align: center;
