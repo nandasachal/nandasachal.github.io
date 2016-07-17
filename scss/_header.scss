@@ -72,6 +72,9 @@ header {
         #education {
             font-size: 15px;
             color: $white;
+            @media screen and (max-width: 400px) {
+                font-size: 12px;
+            }
         }
 
         a {

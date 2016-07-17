@@ -2394,6 +2394,9 @@ header {
     header div.text #education {
       font-size: 15px;
       color: #FFFFFF; }
+      @media screen and (max-width: 400px) {
+        header div.text #education {
+          font-size: 12px; } }
     header div.text a {
       text-decoration: none; }
       header div.text a #golf_lessons {
