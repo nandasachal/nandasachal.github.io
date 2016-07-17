@@ -2356,7 +2356,7 @@ header {
     /*IPHONE*/ }
     @media screen and (max-width: 400px) {
       header #mountain {
-        background: url(../files/mount_diablo_small.jpeg) no-repeat center center fixed; } }
+        background: url(../files/mount_diablo_small.jpeg) center; } }
   header div.menu {
     margin-left: 5px;
     margin-right: 5px;

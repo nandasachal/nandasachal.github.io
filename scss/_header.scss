@@ -21,7 +21,7 @@ header {
         @include background-size();
         /*IPHONE*/
         @media screen and (max-width: 400px) {
-            background: url(../files/mount_diablo_small.jpeg) no-repeat center center fixed;
+            background: url(../files/mount_diablo_small.jpeg) center;
         }
     }
     
