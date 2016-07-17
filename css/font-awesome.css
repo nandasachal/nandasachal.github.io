@@ -2413,10 +2413,10 @@ header {
         /*IPHONE*/ }
         @media screen and (max-width: 400px) {
           header div.text a #golf_lessons {
-            font-size: 11px;
-            width: 315px;
+            font-size: 10px;
+            width: 300px;
             height: 20px;
-            padding-top: 8px; } }
+            padding-top: 9px; } }
       header div.text a #golf_lessons:hover {
         background-color: #003459;
         color: #FFFFFF; }
