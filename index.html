@@ -10,7 +10,39 @@
         <link rel="stylesheet" href="css/font-awesome.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,400italic,300' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="js/dynamic.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                function tab_switch(tab, view){
+                    $(".clicked").addClass("not_clicked");
+                    $(".clicked").removeClass("clicked");
+
+                    $(tab).removeClass("not_clicked");
+                    $(tab).addClass("clicked");
+
+                    $("#work_experience").hide();
+                    $("#projects").hide();
+                    $("#involvement").hide();
+                    $(view).fadeIn(400); //400milliseconds
+                };
+
+                $("#involvement").hide();
+                $("#projects").hide();
+
+                $("#first_tab").click(function(){
+                    tab_switch("#first_tab", "#work_experience");
+                });
+
+                $("#second_tab").click(function(){
+                    tab_switch("#second_tab", "#involvement");
+                });
+
+                $("#third_tab").click(function(){
+                    tab_switch("#third_tab", "#projects");
+                });
+
+            });
+        </script>
     </head>
     <body>
         <header>

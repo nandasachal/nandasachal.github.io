@@ -2401,17 +2401,17 @@ header {
       text-decoration: none; }
       header div.text a #golf_lessons {
         font-size: 14px;
-        color: #003459;
+        color: #FFFFFF;
         width: 410px;
         height: 30px;
         padding-top: 14px;
-        background-color: #D0D0D0;
+        background-color: #003459;
         margin-right: auto;
         margin-left: auto;
         display: block;
         margin-top: 0px;
         border-radius: 25px;
-        transition: background-color 0.4s, color 0.4s;
+        transition: background-color 0.4s;
         cursor: pointer;
         /*IPHONE*/ }
         @media screen and (max-width: 400px) {
@@ -2421,8 +2421,7 @@ header {
             height: 20px;
             padding-top: 9px; } }
       header div.text a #golf_lessons:hover {
-        background-color: #003459;
-        color: #FFFFFF; }
+        background-color: #007CA5; }
   header div.main_tabs div {
     display: inline-block;
     text-align: center;

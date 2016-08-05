@@ -81,14 +81,14 @@ header {
             text-decoration: none;
             #golf_lessons {
                 font-size: 14px;
-                color: $darker_blue;
+                color: $white;
                 width: 410px;
                 height: 30px;
                 padding-top: 14px;
-                background-color: $lighter_gray;
+                background-color: $darker_blue;
                 @include center(0px);
                 border-radius: 25px;
-                transition: background-color 0.4s, color 0.4s;
+                transition: background-color 0.4s;
                 cursor: pointer;
                 /*IPHONE*/
                 @media screen and (max-width: 400px) {
@@ -101,8 +101,7 @@ header {
             }
 
             #golf_lessons:hover {
-                background-color: $darker_blue;
-                color: $white;
+                background-color: $mid_blue;
             }
         }
 
